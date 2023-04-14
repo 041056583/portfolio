@@ -9,7 +9,7 @@
     html {
       height: 100%;
     }
-
+/* NAV */
     .navbar-brand img{
       width: 30px;
       height: 30px;
@@ -59,6 +59,8 @@
       right: 0;
       text-align: center;
     }
+
+/* ICONS-PUSHED-LEFT */
 
     .social-icons {
       display: flex;
@@ -129,6 +131,8 @@
   color: white;
 }
 
+/* MY-WORK */
+
 #hire-me-page h1 {
   position: relative;
   text-align: center;
@@ -163,6 +167,8 @@
   background-color: #000000;
   color: white;
 }
+
+/* CONTACT */
 
 .form-group {
   margin-bottom: 20px;
@@ -203,7 +209,9 @@
   background-color: #3c3c3b;
 }
 .btn-contact{
-margin-top: 40px;
+position: absolute;
+margin-top: 20px;
+margin-left: 75px;
 }
 /* SKIP-LINKS */
 .skip-links{
@@ -220,7 +228,6 @@ margin-top: 40px;
 .skip-links a:focus{
   top: 0;
 }
-
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -259,14 +266,17 @@ margin-top: 40px;
     margin-left: 36%;
     position: absolute;
   }
+  
   .container-contact{
     position: absolute;
     width: 40%;
     margin-left: 30%;
   }
   .btn-contact{
-  margin-top: 40px;
-  }
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 100px;
+    }
 }
 
 
@@ -314,8 +324,10 @@ margin-top: 10px;
     margin-left: 30%;
   }
   .btn-contact{
-  margin-top: 40px;
-  }
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 200px;
+    }
 }
 
 
@@ -362,8 +374,10 @@ margin-top: 10px;
     margin-left: 30%;
   }
   .btn-contact{
-  margin-top: 40px;
-  }
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 250px;
+    }
 }
 
 
@@ -413,6 +427,8 @@ margin-top: 250px;
   margin-left: 30%;
 }
 .btn-contact{
-margin-top: 40px;
-}
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 250px;
+  }
 }
